@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 try {
-                    int fistValue, secondValue, ans;
+                    long fistValue, secondValue, ans;
 
                     fistValue = Integer.parseInt(etFirstValue.getText().toString());
                     secondValue = Integer.parseInt(etSecondValue.getText().toString());
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                     try {
-                int fistValue, secondValue, ans;
+                long fistValue, secondValue, ans;
 
                 fistValue = Integer.parseInt(etFirstValue.getText().toString());
                 secondValue = Integer.parseInt(etSecondValue.getText().toString());
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                   try {
 
 
-                      int fistValue, secondValue, ans;
+                      long fistValue, secondValue, ans;
 
                       fistValue = Integer.parseInt(etFirstValue.getText().toString());
                       secondValue = Integer.parseInt(etSecondValue.getText().toString());
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
              try {
 
-                 int fistValue, secondValue, ans;
+                 double fistValue, secondValue, ans;
 
                  fistValue = Integer.parseInt(etFirstValue.getText().toString());
                  secondValue = Integer.parseInt(etSecondValue.getText().toString());
